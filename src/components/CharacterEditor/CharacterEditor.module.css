@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
   max-width: 1024px;
 }
 
@@ -41,4 +42,13 @@
 .controlColumn > div {
   white-space: nowrap;
   overflow-x: auto;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
